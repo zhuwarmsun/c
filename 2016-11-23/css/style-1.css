@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+/*========header  inner    search============*/
+*{padding:0;margin:0}
+li{list-style:none}
+.header{width:1439px;height:78px;background:#Fff}
+.search{width:142px;height:78px;background:#0F0;float:right}
+.header>div{float:left;}
+
+.l ul li a{background:url(../img/nav.png);display:block;}
+.l ul li{list-style:none;float:left;}
+.l ul .li1{width:99px;height:78px;}
+.l ul .li2{width:124px;height:78px;background-position:-99px 0}
+.l ul .li3{width:146px;height:78px;background-position:-223px 0}
+.l ul .li4{width:121px;height:78px;background-position:-369px 0}
+
+
+.l ul .li1:hover{background:url(../img/nav-on.png);width:99px;height:78px;background-position:0 -78px}
+.l ul .li2:hover{background:url(../img/nav-on.png);width:124px;height:78px;background-position:-99px -78px}
+.l ul .li3:hover{background:url(../img/nav-on.png);width:146px;height:78px;background-position:-223px -78px}
+.l ul .li4:hover{background:url(../img/nav-on.png);width:121px;height:78px;background-position:-369px -78px}
+.l ul li a{text-indent:-999px}
+.inner{width:167px;height:72px;padding-top:6px;}
+
+.inner>a{float:left;display:block;font-size:12px;height:12px;line-height:12px;margin-top:16px;}
+.register{width:101px;border-right:1px solid #cdb6a1;text-indent:61px;margin-left:28px}
+
+.inner div{width:165px;border:1px solid #cdb6a1;height:24px;float:left;margin-top:6px}
+.inner div input{float:left;border:none;height:24px}
+.inner div a{float:left;background:url(../img/13.png);width:22px;height:22px;display:block;text-indent:-900px}
+.land{margin-left:12px}
+
+
+
+
+/*========banner============*/
+.banner{width:1439px;background:#FF0}
+/*========live============*/
+.live{width:1439px;height:37px;background:#fff}
+/*========container============*/
+.container{width:1439px;height:1611px;background:#d6dae2}
+.container_main{width:782px;height:1591px;margin-left:186px;margin-top:20px;float:left;background:#d6dae2}
+.container_side{width:269px;height:1591px;margin-left:20px;margin-top:20px;float:left;background:#FFF}
+/*main*/
+.title_lesson{width:782px;height:57px;background:#f2f1ef}
+.lesson_list{width:782px;height:294px;}
+.lesson_list li{float:left;width:226px;height:275px;background:#F00;border-right:#FFF 1px solid;margin-left:20px}
+.lesson_list li div{width:226;height:163px;background:#fff;}
+#ma{height:131px;}
+#ma p{line-height:32px;text-indent:10px;}
+#ma span{font-size:12px;line-height:20px;margin-left:11px;display:block;width:197px;}
+
+
+.mod_main h2{width:782px;height:59px;display:block;margin-top:20px;background:#f2f1ef}
+.mod_main li{width:743px;height:130px;margin-left:20px;}
+.mod_main ul li{background:#FFF url(../img/16.png) no-repeat right top;margin-bottom:20px;}
+.mod_main ul li dl dd{float:left;margin-left:20px;margin-top:20px;}
+.mod_main ul li dl dt{float:left;margin-left:20px;width:280px;}
+.mod_main ul li dl dt p{background:url(../img/18.png) no-repeat 0 center;display:block;height:34px;line-height:34px;font-size:12px;text-indent:17px;}
+.mod_main ul li dl dt h2{height:24px;font-size:18px;line-height:18px;background:#fff;width:300px;}
+.mod_main{margin-top:20px}
+.mod_main ul li dl dt span{font-size:12px;}
+
+.mod_main+div h2{width:782px;height:59px;display:block;margin-top:20px;background:#f2f1ef}
+.mod_main+div{margin-top:20px;height:697px}
+.mod_main+div>ul{width:710px;height:600px;margin-left:20px}
+.mod_main+div>ul li{width:710;height:202px;border-bottom:1px solid #e4e3e2}
+.mod_main+div{background:#f2f1ef}
+.container_main>div>ul{background:#f2f1ef}
+
+.mod_main+div ul li dl dd{float:left;margin-left:20px;margin-top:20px;}
+.mod_main+div ul li dl dt{float:left;margin-left:20px;width:280px;}
+.mod_main+div ul li dl dt p{background:url(../img/18.png) no-repeat 0 center;display:block;height:34px;line-height:34px;font-size:12px;text-indent:17px;}
+.mod_main+div ul li dl dt h2{font-size:18px;line-height:12px;width:300px;font-weight:normal;height:30px}
+.mod_main{margin-top:20px}
+.mod_main+div ul li dl dt span{margin-top:39px;font-size:12px;display:block;}
+
+/*========footer============*/
+#footer{width:1439px;height:413px;background:#f6f6f6;}
+
+.line{width:100%;height:3px;}
+.blue{width:359.75px;height:3px;float:left;background:#00F}
+.green{width:359.75px;height:3px;float:left;background:green}
+.yellow{width:359.75px;height:3px;float:left;background:#FF0}
+.orange{width:359.75px;height:3px;float:left;background:orange}
+
+
+.bottom{margin-left:207px;background:#f6f6f6;width:754px;height:383px;padding-top:27px;float:left}
+.bottom h2{line-height:37px;font-size:14px}
+.bottom div{width:767px;height:88px;background:#f6f6f6}
+.open a{width:125.6px;height:44px;float:left;line-height:44px;margin:0 0 0 13px;}
+.open{float:left}
+
+.partner{width:767px;height:150px;margin-top:22px;float:left}
+.partner h2{line-height:32px;font-size:14px;}
+.partner div a{margin:0 20px 0 13px;height:28px;float:left;line-height:28px;font-size:14px;color:#000;text-decoration:none}
+#partner{height:150px}
+
+.follow{width:158px;height:194px;float:left;padding-top:36px;font: 12px/1.5 microsoft yahei, tahoma,arial,sans-serif}
+
+

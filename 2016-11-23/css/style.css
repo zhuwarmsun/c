@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+#div1{width:1330px;height:36px;background:#6F6;padding-left:163px}
+#div1 .div1-1{width:308px;height:36px;background:#30F;float:left}
+#div1 .div1-2{width:371px;height:36px;background:#F09;float:left;margin-left:309px}
+
+#div2{width:1330px;height:99px;background:#F06}
+
+
+#div3{width:1330px;height:43px;background:#FF6}
+#div4{width:1330px;height:328px;background:#e6e6e6;padding-left:163px}
+#div4 .div4-1{width:670px;height:328px;background:#FF3;float:left}
+#div4 .div4-2{width:335px;height:328px;background:#3F3;float:left}
+
+#div5{width:1330px;height:40px;background:#0F0}
+#div6{width:1330px;height:550px;background:#FFF;padding-left:163px}
+#div6 .div6-1{width:308px;height:550px;float:left;background:#909}
+#div6 .div6-2{width:454px;height:550px;float:left;background:#606}
+#div6 .div6-3{width:245px;height:550px;float:left;background:#3F0}
+
+#div7{width:1330px;height:29px;background:#30C}
+#div8{width:1330px;height:42px;background:#6F0}
+#div9{width:1330px;height:130px;background:#666}
+
+
+
+

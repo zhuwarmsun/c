@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0}
+li{list-style-type:none}
+.header{width:1422px;height:59px;background:#232323;margin:0 auto;}
+.img{float:left;}
+.header ul{margin-left:88px;float:left;}
+.header ul li{float:left;line-height:59px;font-size:14px;text-align:center;background:url(../img/shu.png) no-repeat right center}
+.li1{width:59px;}
+.li1~li{width:87px;}
+.header ul li:hover{background:#f15a23}
+.header ul li a{color:#FFF;text-decoration:none;}
+
+.banner{width:1422px;height:420px;margin:0 auto}
+
+h2{font-weight:normal;color:#252e3b}
+.item{width:1422px;background:#f5f5f5;margin:0 auto}
+.item div ul li{width:255px;float:left;background:#f5f5f5;background:url(../img/chang.png) no-repeat right center}
+.item>div{margin:0 auto;width:1020px;padding-bottom:29px;padding-top:35px;}/*想让块状元素居中必须得给块状元素添加宽度*/
+.item>div:after{content:"";display:table;clear:both}/*万能清除浮动带来影响的方法  div（高度塌陷）*/
+.title1{text-align:center;width:255px;line-height:34px;}
+.shouji,.deng,.feiji,.taiyang{height:154px;width:255px;}/*群组选择器用逗号隔开*/
+.shouji{background:url(../img/qianfengimg/shouji.png) no-repeat  center}
+.deng{background:url(../img/qianfengimg/deng.png) no-repeat center}
+.feiji{background:url(../img/qianfengimg/feiji.png) no-repeat center}
+.taiyang{background:url(../img/qianfengimg/taiyang.png) no-repeat center}
+.title1+div{height:39px;text-align:center}
+.title1+div span{font-size:14px;font-weight:bold;color:#546c7d}
+#content ul li{height:20px;font-size:14px;color:#a3bccd}
+#content ul{text-align:center}
+
+
+
+/*.news{width:1422px;height:311px;background:#ffffff;margin:0 auto}*/
+.news{width:100%;padding-top:44px;padding-bottom:41px;margin:0 auto;}
+.news div{margin:0 auto;width:880px}
+.news div li{float:left;}
+.news div ul:after{content:"";display:block;clear:both;}
+.news div .p{width:302px;height:228px;border:1px solid #dddddd;text-align:center;}
+.news div .p a span{width:0;height:100%;display:inline-block;vertical-align:middle}
+.news div .p a img{vertical-align:middle}
+.news div .p+li{width:354px;border-right:#dcdedf 1px solid}
+.news li h2{line-height:29px;font-size:20px;text-indent:15px}
+.news li p{line-height:40px;font-size:16px;text-indent:15px;}
+.news li .p1{line-height:17px;text-indent:39px;font-size:12px;}
+.news li .p1+p{line-height:19px;color:#cccccc}
+.news li .p2~p{font-size:12px;color:#444444;background:url(../img/jiantou.png) no-repeat 15px 6px;text-indent:28px;line-height:25px }
+.talk p a{width:138;height:49px;display:block;background:url(../img/conn.png) no-repeat}
+.talk .zi{text-indent:13px;line-height:23px;font-size:12px;color:#666666}
+.con{display:block;height:51px;line-height:54px;text-indent:13px;font-size:25px;font-weight:bloder;}
+
+
+.service{height:213px;width:1422px;background:#222222;margin:0 auto}
+.service div{width:505px;height:137px;margin-left:193px;margin-top:50px;float:left;background:#222222}
+.service div ul>li{width:101px;height:137px;float:left;}
+.title{height:101px;font-size:12px;color:#FFF}
+.service div ul li ul{text-align:center}
+.service div ul li ul li{height:25px;}
+.service div ul li ul .title~li{font-size:12px;color:#999999}
+.bottom{height:45px;width:1422px;background:#101010;text-align:center;margin:0 auto}
+
+.bottom span{color:#999999;font-size:12px;line-height:45px;}
+
+
+
+
+

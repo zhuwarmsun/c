@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0}
+#whole{width:788px;height:844px;background:#f2f2f2;margin:auto auto}
+.header{width:788px;height:38px;background:#f2f2f2;}
+.baner{width:788px;height:266px;background:#6FF}
+.content{width:788px;height:153px;background:#0FC}
+.about{width:788px;height:253px;background:#30C}
+.bottom{width:788px;height:134px;background:#383838}
